@@ -143,7 +143,7 @@ export default function Hero() {
           {/* <video className="absolute top-0 left-0 -z-1 h-full w-full object-cover" src="video/adv1.mp4" id="video-slider" loop autoPlay muted></video> */}
         </div>
       </section>
-      <section className=' bg-black py-10'>
+      {/* <section className=' bg-black py-10'>
         <h1 className='text-white font-extrabold sm:text-5xl text-3xl text-center'>BUILD YOUR 
           <span className='text-rose-700 block'>PERFECT BODY</span>
         </h1>
@@ -180,7 +180,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
