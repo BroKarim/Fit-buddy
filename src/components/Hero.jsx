@@ -3,7 +3,7 @@ import vidBg from '../assets/video/vid1.mp4';
 export default function Hero() {
   return (
     <>
-      <section className="home min-h-full flex relative " id="home">
+      <section className="home  flex relative " id="home">
         {/* left */}
         <div className=" md:w-1/2 w-full float-left mx-auto md:mx-0  px-4 py-32 md:px-20 flex lg:h-screen lg:items-center ">
           <div className="max-w-xl text-center sm:text-left">
@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         {/* right */}
-        <div className="w-1/2 md:flex hidden overflow-hidden">
+        <div className="md:w-1/2 md:flex hidden overflow-hidden">
 
           <div className="relative top-1/3 left-28 flex flex-col gap-6">
             {/* card 1 */}
@@ -59,7 +59,7 @@ export default function Hero() {
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
                   <h2 className="text-xs font-semibold tracking-tight text-black">Enter your data</h2>
-                  <p className="text-xs font-light text-gray-500">You received $5 credit</p>
+                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
                 </div>
 
                 <div className="text-xs text-gray-400">17:15</div>
@@ -93,7 +93,7 @@ export default function Hero() {
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
                   <h2 className="text-xs font-semibold tracking-tight text-black">Choose program</h2>
-                  <p className="text-xs font-light text-gray-500">You received $5 credit</p>
+                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
                 </div>
 
                 <div className="text-xs text-gray-400">17:15</div>
@@ -125,7 +125,7 @@ export default function Hero() {
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
                   <h2 className="text-xs font-semibold tracking-tight text-black">Upgrade your self</h2>
-                  <p className="text-xs font-light text-gray-500">You received $5 credit</p>
+                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
                 </div>
 
                 <div className="text-xs text-gray-400">17:15</div>
