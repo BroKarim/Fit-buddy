@@ -1,0 +1,50 @@
+{
+    "extra-kecil": [
+        "15-21|wanita|kurang",
+        "15-21|wanita|kurang"
+    ],
+    "kecil": [
+        "15-21|pria|kurang",
+        "15-21|pria|kurang",
+        "15-21|wanita|ideal",
+        "15-21|wanita|ideal",
+        "36-70|wanita|ideal",
+        "36-70|wanita|ideal"
+    ],
+    "sedang": [
+        "15-21|pria|ideal",
+        "15-21|pria|ideal",
+        "15-21|wanita|lebih",
+        "15-21|wanita|lebih",
+        "36-70|wanita|lebih",
+        "36-70|wanita|lebih",
+        "22-35|wanita|kurang",
+        "22-35|wanita|kurang",
+        "36-70|wanita|kurang",
+        "36-70|wanita|kurang"
+    ],
+    "semi-berat": [
+        "15-21|pria|lebih",
+        "15-21|pria|lebih",
+        "22-35|pria|kurang",
+        "22-35|pria|kurang",
+        "36-70|pria|ideal",
+        "36-70|pria|ideal",
+        "36-70|pria|lebih",
+        "36-70|pria|lebih",
+        "22-35|pria|lebih",
+        "22-35|pria|lebih",
+        "22-35|wanita|ideal",
+        "22-35|wanita|ideal"
+    ],
+    "berat": [
+        "22-35|wanita|lebih",
+        "22-35|wanita|lebih",
+        "36-70|pria|kurang",
+        "36-70|pria|kurang"
+    ],
+    "extra-berat": [
+        "22-35|pria|ideal",
+        "22-35|pria|ideal"
+    ]
+}
