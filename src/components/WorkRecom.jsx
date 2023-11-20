@@ -10,8 +10,8 @@ export default function WorkRecom() {
             </span>
           </h1>
         </div>
-        <div className="flex md:flex-row flex-col  justify-center p-4 items-center">
-          <a href="#" className="block">
+        <div className="flex md:flex-row flex-wrap start flex-col overflow-hidden  justify-items-start p-4 items-center">
+          <a href="#" className="block py-4">
             <iframe title="Giphy" src="https://giphy.com/embed/mGWBjz74fn404BWUl4" width="400" height="200" className="giphy-embed" allowFullScreen></iframe>
 
             <div className="mt-4 sm:flex sm:items-center sm:justify-center text-white sm:gap-4">
@@ -22,7 +22,7 @@ export default function WorkRecom() {
               <p className="mt-0.5 opacity-50 sm:mt-0">2 set of 12 reps</p>
             </div>
           </a>
-          <a href="#" className="block rounded-lg">
+          <a href="#" className="block py-4">
             <iframe title="Giphy" src="https://giphy.com/embed/xThuWcL1bfnd1MtZGE" width="400" height="200" frameBorder="0" className="giphy-embed rounded-md" allowFullScreen></iframe>
 
             <div className="mt-4 sm:flex sm:items-center sm:justify-center text-white sm:gap-4">
@@ -33,7 +33,7 @@ export default function WorkRecom() {
               <p className="mt-0.5 opacity-50 sm:mt-0">10 set of 12 reps</p>
             </div>
           </a>
-          <a href="#" className="block">
+          <a href="#" className="block py-4">
             <iframe title="Giphy" src="https://giphy.com/embed/xThuWcL1bfnd1MtZGE" width="400" height="200" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
 
             <div className="mt-4 sm:flex sm:items-center sm:justify-center text-white sm:gap-4">
@@ -42,6 +42,17 @@ export default function WorkRecom() {
               <span className="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
               <p className="mt-0.5 opacity-50 sm:mt-0">Branding / Signage</p>
+            </div>
+          </a>
+          <a href="#" className="block py-4">
+            <iframe title="Giphy" src="https://giphy.com/embed/MxqKKnUJdSd3i" width="400" height="200" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+
+            <div className="mt-4 sm:flex sm:items-center sm:justify-center text-white sm:gap-4">
+              <strong className="font-medium">pull uos</strong>
+
+              <span className="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
+
+              <p className="mt-0.5 opacity-50 sm:mt-0">10 set of 12 reps</p>
             </div>
           </a>
         </div>
