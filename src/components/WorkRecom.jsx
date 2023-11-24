@@ -147,4 +147,4 @@ export default function WorkRecom() {
       </div>
     </section>
   );
-}
+
