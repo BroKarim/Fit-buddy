@@ -7,6 +7,7 @@ import GenderOption from './components/GenderOption';
 import Height from './components/Height';
 import Weight from './components/Weight';
 import WorkRecom from './components/WorkRecom';
+import Goal from './components/Goal';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gender" element={<GenderOption />} />
         <Route path="/height" element={<Height />} />
+        <Route path="/weight" element={<Weight />} />
         <Route path="/workrecom" element={<WorkRecom />} />
+        <Route path="/goals" element={<Goal />} />
       </Routes>
     </Router>
   );
