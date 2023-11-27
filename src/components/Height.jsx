@@ -27,7 +27,7 @@ const Height = () => {
                 <button type="button" class="text-gray-900 bg-[#FD3D00] border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-bold rounded-lg text-sm px-16 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:border-gray-700 dark:text-white me-2 mb-2 hover:opacity-70 mt-2 ms-3">
                     Continue
                 </button>
-            </Link>
+              </Link>
             </form>
           </div>
         </div>
