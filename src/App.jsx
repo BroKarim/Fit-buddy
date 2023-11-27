@@ -8,6 +8,7 @@ import Height from './components/Height';
 import Weight from './components/Weight';
 import WorkRecom from './components/WorkRecom';
 import Goal from './components/Goal';
+import BMIResult from './components/BMIResult'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/weight" element={<Weight />} />
         <Route path="/workrecom" element={<WorkRecom />} />
         <Route path="/goals" element={<Goal />} />
+        <Route path="/bmiresult" element={<BMIResult />} />
       </Routes>
     </Router>
   );

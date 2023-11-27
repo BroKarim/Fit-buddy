@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 import { oldCategory } from '../utils/data';
 
 export default function CardSection() {
