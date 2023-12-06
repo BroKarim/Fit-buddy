@@ -10,6 +10,10 @@ const BMIResult = (props) => {
   const weight = searchParams.get('w');
   const bmiValue = checkBMI(height,weight);
   const bmiClass = classificationBMI(bmiValue);
+
+  const age = searchParams.get('age');
+  const gender = searchParams.get('gender');
+
   const [motivation, setMotivation] = useState("undefined");
   useEffect(() => {
     switch (bmiClass) {
@@ -44,14 +48,13 @@ const BMIResult = (props) => {
         </div>
         <div className=" flex justify-center">
             <a
-              href="/goals"
+              href={`/goals?bmi=${bmiClass}&age=${age}&gender=${gender}`}
               className="text-gray-900 mt-4 bg-[#FD3D00] border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-bold rounded-lg text-sm px-16 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:border-gray-700 dark:text-white me-2 mb-2 hover:opacity-70">
               Continue
             </a>
         </div>
     </div>
   </section>
-  
   )
 };
 

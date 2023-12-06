@@ -16,11 +16,11 @@ const formattingRules = (umur, jk, bmi) => {
 
     let bmi_class;
 
-    if (bmi === "underweight") {
+    if (bmi === "Underweight") {
         bmi_class = "kurang";
-    } else if (bmi === "normal") {
+    } else if (bmi === "Normal") {
         bmi_class = "ideal";
-    } else if (bmi === "overweight" || bmi === "obesity") {
+    } else if (bmi === "Overweight" || bmi === "Obesity") {
         bmi_class = "lebih";
     }
 

@@ -7,6 +7,8 @@ import { useState } from "react";
     const [weight, setWeight] = useState(0);
     const [searchParams,] = useSearchParams( );
     const height = searchParams.get('h');
+    const age = searchParams.get('age');
+    const gender = searchParams.get('gender');
     return (
       <div className="bg-black w-full h-screen flex flex-col items-center justify-center relative">
         <Link to={"/height"}>
@@ -30,7 +32,7 @@ import { useState } from "react";
                   />
                   <span className="pl-3 flex items-center text-white font-semibold">KG</span>
                 </div>
-                <Link to={`/bmiresult?h=${height}&w=${weight}`}>
+                <Link to={`/bmiresult?h=${height}&w=${weight}&age=${age}&gender=${gender}`}>
                   <button type="button" class="text-gray-900 bg-[#FD3D00] border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-bold rounded-lg text-sm px-16 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:border-gray-700 dark:text-white me-2 mb-2 hover:opacity-70 mt-2 ms-3">
                     Continue
                   </button>

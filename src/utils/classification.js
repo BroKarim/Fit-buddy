@@ -1,4 +1,4 @@
-import data from "../rules/rules.json"
+import data from "../rules/rules2.json"
 
 const classification = (input) =>{
     for (const key in data){
@@ -10,6 +10,7 @@ const classification = (input) =>{
                 if(classItem.includes(input)){
                     // setResult(key);
                     return key;
+                    
                 }
             }
         }

@@ -1,7 +1,10 @@
 import { useSearchParams } from "react-router-dom";
 // import getWorkout from "../utils/selectWorkout";
+import formattingRules from "../utils/formattingRules";
+import classification from "../utils/classification";
 
 import workoutData from '../rules/workout_program.json';
+import { useEffect, useState } from "react";
 
 // Function to get the workout based on the program
 const getWorkout = (program) => {
@@ -17,10 +20,23 @@ const getWorkout = (program) => {
 };
 
 export default function WorkRecom() {
-  const [searchParams,] = useSearchParams( );
+  const [searchParams,] = useSearchParams();
+  const [res, setRes] = useState("");
+  const [newFormat, setnewFormat] = useState("");
   const program = searchParams.get('wo');
 
+  const age = searchParams.get('age');
+  const gender = searchParams.get('gender') === "Male" ? "pria" : "wanita";
+  const bmi = searchParams.get('bmi');
+
   const selectedWorkout = getWorkout(program);
+  useEffect(()=>{
+    const neFormat = formattingRules(age, gender, bmi);
+    setnewFormat(neFormat)
+    const result = classification(newFormat);
+    setRes(result)
+  },[])
+
   return (
     <section className="bg-black">
       <div className=" py-10">
@@ -28,7 +44,7 @@ export default function WorkRecom() {
           <h1 className="text-5xl font-bold leadi sm:text-6xl xl:max-w-md text-white">
             Some workout{' '}
             <span className="text-red-500">
-              recomended for you <br />{' '}
+              recomended for you {newFormat}{res}<br />{' '}
             </span>
           </h1>
         </div>
@@ -42,11 +58,19 @@ export default function WorkRecom() {
 
                 <span className="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                <p className="mt-0.5 opacity-50 sm:mt-0">{`${workout.sets} set${workout.sets > 1 ? 's' : ''} of ${workout.repetitions} reps`}</p>
+                <p className="mt-0.5 opacity-50 sm:mt-0">
+                  {res === 'kecil'
+                    ? `${workout.sets - 1} set${workout.sets > 2 ? 's' : ''} of ${workout.repetitions - 3} reps`
+                    : (res === 'berat'
+                      ? `${workout.sets + 1} set${workout.sets > 0 ? 's' : ''} of ${workout.repetitions + 3} reps`
+                      : `${workout.sets} set${workout.sets > 1 ? 's' : ''} of ${workout.repetitions} reps`
+                    )
+                  }
+                </p>
               </div>
             </a>
           ))}
-         
+
         </div>
       </div>
     </section>
