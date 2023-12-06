@@ -25,15 +25,7 @@ const Testing = () => {
     const fetchData = () =>{
         const bmivalue = checkBMI(tinggi, berat);
         
-        if(bmivalue < 18.5){
-            setBmiclass("underweight");
-        }else if(bmivalue < 25.0){
-            setBmiclass("normal");
-        }else if(bmivalue < 30.0) {
-            setBmiclass("overweight");
-        }else {
-            setBmiclass("obesity");
-        }
+        
         
         const newContoh = formattingRules(umur,jk,bmiclass);
         setContoh(newContoh)
