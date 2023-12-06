@@ -1,0 +1,86 @@
+[
+      {
+        "id": 1,
+        "name": "pushup",
+        "gif_url": "https://giphy.com/embed/5t9IcXiBCyw60XPpGu",
+        "sets": 3,
+        "repetitions": 15
+      },
+      {
+        "id": 2,
+        "name": "pullup",
+        "gif_url": "https://giphy.com/embed/2ALcpIRjQFi21eezSI",
+        "sets": 3,
+        "repetitions": 10
+      },
+      {
+        "id": 3,
+        "name": "situp",
+        "gif_url": "https://giphy.com/embed/35EH7kLQiMM1YWYmUI",
+        "sets": 3,
+        "repetitions": 20
+      },
+      {
+        "id": 4,
+        "name": "squat",
+        "gif_url": "https://giphy.com/embed/1qfKN8Dt0CRdCRxz9q",
+        "sets": 3,
+        "repetitions": 15
+      },
+      {
+        "id": 5,
+        "name": "lunges",
+        "gif_url": "https://giphy.com/embed/1ncuQASTajJ0lx6Nix",
+        "sets": 3,
+        "repetitions": "10 each leg"
+      },
+      {
+        "id": 6,
+        "name": "plank",
+        "gif_url": "https://giphy.com/embed/39wjDz1y3UI51qgv4K",
+        "sets": 3,
+        "repetitions": "1 minute"
+      },
+      {
+        "id": 7,
+        "name": "crunches",
+        "gif_url": "https://giphy.com/embed/2A5A9uJBzgyty",
+        "sets": 3,
+        "repetitions": 25
+      },
+      {
+        "id": 8,
+        "name": "jumping jacks",
+        "gif_url": "https://giphy.com/embed/ZcKxE91kiP7e3O7Me4",
+        "sets": 3,
+        "repetitions": 30
+      },
+      {
+        "id": 9,
+        "name": "sec wall sit",
+        "gif_url": "https://giphy.com/embed/5hqs5R78mB5thn3eSc",
+        "sets": 3,
+        "repetitions": "1 minute"
+      },
+      {
+        "id": 10,
+        "name": "butt kick",
+        "gif_url": "https://giphy.com/embed/hp3PGxGMODVQnULnqz",
+        "sets": 3,
+        "repetitions": "20 each leg"
+      },
+      {
+        "id": 11,
+        "name": "russian twist",
+        "gif_url": "https://giphy.com/embed/cM8tzmeTY0SYMz6VGj",
+        "sets": 3,
+        "repetitions": "20 each side"
+      },
+      {
+        "id": 12,
+        "name": "leg circles",
+        "gif_url": "https://giphy.com/embed/oohqcQSr77gXu",
+        "sets": 3,
+        "repetitions": "10 clockwise, 10 counterclockwise"
+      }
+    ]

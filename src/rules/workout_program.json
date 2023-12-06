@@ -1,0 +1,41 @@
+{
+    "muscle_strenght": [
+        {
+            "id": 1,
+            "name": "pushup",
+            "gif_url": "https://giphy.com/embed/5t9IcXiBCyw60XPpGu",
+            "sets": 3,
+            "repetitions": 15
+          },
+          {
+            "id": 2,
+            "name": "pullup",
+            "gif_url": "https://giphy.com/embed/2ALcpIRjQFi21eezSI",
+            "sets": 3,
+            "repetitions": 10
+          },
+          {
+            "id": 3,
+            "name": "situp",
+            "gif_url": "https://giphy.com/embed/35EH7kLQiMM1YWYmUI",
+            "sets": 3,
+            "repetitions": 20
+          },
+          {
+            "id": 4,
+            "name": "squat",
+            "gif_url": "https://giphy.com/embed/1qfKN8Dt0CRdCRxz9q",
+            "sets": 3,
+            "repetitions": 15
+          },
+          {
+            "id": 5,
+            "name": "dips",
+            "gif_url": "https://giphy.com/embed/3o6Zt6MLxUfZgXyfTi",
+            "sets": 3,
+            "repetitions": 15
+          }
+
+        
+    ]
+}
