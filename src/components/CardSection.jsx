@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 import { oldCategory } from '../utils/data';
 
 export default function CardSection() {
@@ -13,17 +14,17 @@ export default function CardSection() {
           </h1>
         </div>
         <div className="flex md:flex-row flex-col gap-10 justify-center p-4 items-center">
-          <a href="#" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
+          <a href="/gender" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
             <img alt="Art" src={oldCategory.teenage} className="h-72  w-full object-cover rounded-t-md" />
 
             <h3 className="my-2 px-2 text-lg font-semibold text-gray-900 text-center">Age : 15-21</h3>
           </a>
-          <a href="#" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
+          <a href="/gender" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
             <img alt="Art" src={oldCategory.adult} className="h-72  w-full object-cover rounded-t-md" />
 
             <h3 className="my-2 px-2 text-lg font-semibold text-gray-900 text-center">Age : 15-21</h3>
           </a>
-          <a href="#" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
+          <a href="/gender" className="block bg-[#354C2F] rounded-md transition-transform hover:scale-110 hover:-translate-x-2 hover:-translate-y-2">
             <img alt="Art" src={oldCategory.old_man} className="h-72  w-full object-cover rounded-t-md" />
 
             <h3 className="my-2 px-2 text-lg font-semibold text-gray-900 text-center">Age : 15-21</h3>

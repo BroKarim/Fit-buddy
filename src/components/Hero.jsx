@@ -1,5 +1,5 @@
 import vidBg from '../assets/video/vid1.mp4';
-import { dewasa, muda, tua } from '../assets/images/index';
+// import { dewasa, muda, tua } from '../assets/images/index';
 
 export default function Hero() {
   return (

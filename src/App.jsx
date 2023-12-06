@@ -7,8 +7,8 @@ import GenderOption from './components/GenderOption';
 import Height from './components/Height';
 import Weight from './components/Weight';
 import WorkRecom from './components/WorkRecom';
-import Testing from './components/Testing';
-import Testingt from './components/Testingt';
+import Goal from './components/Goal';
+import BMIResult from './components/BMIResult'
 
 function App() {
   return (
@@ -17,9 +17,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gender" element={<GenderOption />} />
         <Route path="/height" element={<Height />} />
+        <Route path="/weight" element={<Weight />} />
         <Route path="/workrecom" element={<WorkRecom />} />
-        <Route path="/Testing" element={<Testing />} />
-        <Route path="/Testingt" element={<Testingt />} />
+        <Route path="/goals" element={<Goal />} />
+        <Route path="/bmiresult" element={<BMIResult />} />
       </Routes>
     </Router>
   );
