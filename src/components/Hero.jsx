@@ -4,7 +4,7 @@ import vidBg from '../assets/video/vid1.mp4';
 export default function Hero() {
   return (
     <>
-      <section className="home  flex relative " id="home">
+      <section className="home flex relative " id="home">
         {/* left */}
         <div className=" md:w-1/2 w-full float-left mx-auto md:mx-0  px-4 py-32 md:px-20 flex lg:h-screen lg:items-center ">
           <div className="max-w-xl text-center sm:text-left">
@@ -13,10 +13,10 @@ export default function Hero() {
               <strong className="block font-extrabold text-rose-700">& get stronger</strong>
             </h1>
 
-            <p className="mt-4 text-white max-w-lg text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
+            <p className="mt-4 text-white max-w-lg text-xl">Achieve your ideal body dreams with an exercise program designed especially for you.</p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-center">
-              <a href="#_" className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 border-white rounded-full shadow-md group">
+              <a href="#card" className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 border-white rounded-full shadow-md group">
                 <span className="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-white group-hover:-translate-x-0 ease">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -58,11 +58,9 @@ export default function Hero() {
               {/* <!-- bagian text --> */}
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
-                  <h2 className="text-xs font-semibold tracking-tight text-black">Enter your data</h2>
-                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
+                  <h2 className="text-xs font-semibold tracking-tight text-black">Input Your Information</h2>
+                  <p className="text-xs font-light text-gray-500">Provide the necessary details to get started</p>
                 </div>
-
-                <div className="text-xs text-gray-400">17:15</div>
               </div>
             </div>
 
@@ -92,11 +90,9 @@ export default function Hero() {
               {/* <!-- bagian text --> */}
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
-                  <h2 className="text-xs font-semibold tracking-tight text-black">Choose program</h2>
-                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
+                  <h2 className="text-xs font-semibold tracking-tight text-black">Choose Program</h2>
+                  <p className="text-xs font-light text-gray-500">choose the program that suits your needs</p>
                 </div>
-
-                <div className="text-xs text-gray-400">17:15</div>
               </div>
             </div>
 
@@ -124,11 +120,9 @@ export default function Hero() {
               {/* <!-- bagian text --> */}
               <div className="inline-flex flex-1 items-start justify-between">
                 <div>
-                  <h2 className="text-xs font-semibold tracking-tight text-black">Upgrade your self</h2>
-                  <p className="text-xs font-light text-gray-500">lorem ipsum</p>
+                  <h2 className="text-xs font-semibold tracking-tight text-black">Upgrade Yourself</h2>
+                  <p className="text-xs font-light text-gray-500">Transform your physique to achieve your ideal body</p>
                 </div>
-
-                <div className="text-xs text-gray-400">17:15</div>
               </div>
             </div>
           </div>

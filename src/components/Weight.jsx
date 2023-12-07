@@ -17,7 +17,7 @@ import { useState } from "react";
           </svg>
         </Link>
       
-        <h1 className="text-white font-bold text-3xl mb-6">What's your current weight</h1>
+        <h1 className="text-white font-bold text-4xl sm:text-5xl mb-6">What's Your Current <span className="text-[#ff5050]">Weight?</span></h1>
         <div className="text-white">
           <div className="flex flex-col items-center">
             <div className="mb-4">

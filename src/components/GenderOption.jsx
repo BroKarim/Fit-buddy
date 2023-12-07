@@ -13,7 +13,7 @@ const GenderOption = () => {
         </svg>
     </Link>
 
-    <h1 className="text-white font-bold text-3xl mb-10 mr-3">What's your gender</h1>
+    <h1 className="text-white font-bold text-4xl sm:text-5xl mb-10 mr-3">What's Your <span className="text-[#ff5050]">Gender?</span></h1>
     <div className="text-white">
         <div className="flex flex-col items-center">
             <Link to={`/height?gender=Female&age=${age}`}>
