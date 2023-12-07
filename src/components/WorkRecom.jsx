@@ -41,14 +41,17 @@ export default function WorkRecom() {
     <section className="bg-black">
       <div className=" py-10">
         <div className="container flex flex-col items-center px-4 py-8  mx-auto text-center  md:py-16 md:px-10 lg:px-32 dark:text-gray-900">
-          <h1 className="text-5xl font-bold leadi sm:text-6xl xl:max-w-md text-white">
+          <h1 className="text-5xl font-bold sm:text-6xl xl:max-w-md text-white">
             Some workout{' '}
-            <span className="text-red-500">
+            {/* <span className="text-red-500">
               recomended for you {newFormat}{res}<br />{' '}
+            </span> */}
+            <span className="text-red-500">
+              recomended for you<br />{' '}
             </span>
           </h1>
         </div>
-        <div className="flex md:flex-row flex-wrap start flex-col overflow-hidden  justify-items-start p-4 items-center">
+        <div className="flex md:flex-row flex-wrap start flex-col overflow-hidden mx-auto p-4 items-center justify-center">
           {selectedWorkout.map((workout) => (
             <a href="#" className="block py-4">
               <iframe title="Giphy" src={workout.gif_url} width="400" height="200" className="giphy-embed" allowFullScreen></iframe>
