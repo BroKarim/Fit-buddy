@@ -32,8 +32,7 @@ export default function WorkRecom() {
   const selectedWorkout = getWorkout(program);
   useEffect(()=>{
     const neFormat = formattingRules(age, gender, bmi);
-    setnewFormat(neFormat)
-    const result = classification(newFormat);
+    const result = classification(neFormat);
     setRes(result)
   },[])
 
@@ -47,7 +46,7 @@ export default function WorkRecom() {
               recomended for you {newFormat}{res}<br />{' '}
             </span> */}
             <span className="text-red-500">
-              recomended for you<br />{' '}
+              recomended for you<br />
             </span>
           </h1>
         </div>
